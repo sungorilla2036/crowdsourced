@@ -38,7 +38,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v4
       with:
-        images: apache/answer
+        images: igglabs/crowdsourced
         tags: |
           type=ref,enable=true,priority=600,prefix=,suffix=,event=branch
           type=semver,pattern={{version}}

@@ -11,7 +11,7 @@ The following table lists the configurable parameters of the answer chart and th
 | Parameter | Description | Default |
 | --------- | ----------- | ------- |
 | `replicaCount`  | Number of answer replicas  | `1` |
-| `image.repository` | Image repository | `apache/answer` |
+| `image.repository` | Image repository | `igglabs/crowdsourced` |
 | `image.pullPolicy` | Image pull policy | `Always` |
 | `image.tag` | Image tag | `latest` |
 | `env` | Optional environment variables for answer | `LOG_LEVEL: INFO` |
@@ -71,5 +71,5 @@ Publish the chart to Artifacthub and add proper installation instructions. E.G.
 ```console
 $ helm repo add apache https://charts.answer.apache.org/
 $ helm repo update
-$ helm install apache/answer -n mynamespace
+$ helm install igglabs/crowdsourced -n mynamespace
 ```
