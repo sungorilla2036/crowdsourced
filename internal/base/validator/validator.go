@@ -26,8 +26,6 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/base/translator"
 	"github.com/go-playground/locales"
 	german "github.com/go-playground/locales/de"
 	english "github.com/go-playground/locales/en"
@@ -57,6 +55,8 @@ import (
 	myErrors "github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/i18n"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
 )
 
 type TranslatorLocal struct {

@@ -23,12 +23,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/activity_queue"
-	"github.com/apache/incubator-answer/pkg/converter"
-	"github.com/apache/incubator-answer/pkg/uid"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/activity_queue"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
+	"github.com/sungorilla2036/crowdsourced/pkg/uid"
 	"xorm.io/xorm"
 )
 

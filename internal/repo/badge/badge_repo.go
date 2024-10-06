@@ -21,13 +21,13 @@ package badge
 
 import (
 	"context"
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/pager"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/service/badge"
-	"github.com/apache/incubator-answer/internal/service/unique"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/pager"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/service/badge"
+	"github.com/sungorilla2036/crowdsourced/internal/service/unique"
 	"xorm.io/xorm"
 )
 

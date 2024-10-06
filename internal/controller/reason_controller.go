@@ -20,10 +20,10 @@
 package controller
 
 import (
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/reason"
 	"github.com/gin-gonic/gin"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/reason"
 )
 
 // ReasonController answer controller

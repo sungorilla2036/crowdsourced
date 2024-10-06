@@ -22,11 +22,11 @@ package role
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/service/role"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/service/role"
 	"xorm.io/builder"
 	"xorm.io/xorm"
 )

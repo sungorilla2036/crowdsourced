@@ -24,10 +24,10 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/schema"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 )
 
 func (t *TemplateRenderController) Index(ctx *gin.Context, req *schema.QuestionPageReq) ([]*schema.QuestionPageResp, int64, error) {

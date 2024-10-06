@@ -19,7 +19,7 @@
 
 package schema
 
-import "github.com/apache/incubator-answer/internal/base/constant"
+import "github.com/sungorilla2036/crowdsourced/internal/base/constant"
 
 // ActivityMsg activity message
 type ActivityMsg struct {

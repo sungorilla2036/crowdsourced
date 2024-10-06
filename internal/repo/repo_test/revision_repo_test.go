@@ -24,11 +24,11 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/repo/question"
-	"github.com/apache/incubator-answer/internal/repo/revision"
-	"github.com/apache/incubator-answer/internal/repo/unique"
 	"github.com/stretchr/testify/assert"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/question"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/revision"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/unique"
 )
 
 var q = &entity.Question{

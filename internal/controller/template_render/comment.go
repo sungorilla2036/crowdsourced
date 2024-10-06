@@ -21,8 +21,8 @@ package templaterender
 
 import (
 	"context"
-	"github.com/apache/incubator-answer/internal/base/pager"
-	"github.com/apache/incubator-answer/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/base/pager"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 )
 
 func (t *TemplateRenderController) CommentList(

@@ -67,7 +67,7 @@ const AnswerLinks = () => {
           </Col>
           <Col xs={6}>
             <a
-              href="https://github.com/apache/incubator-answer"
+              href="https://github.com/sungorilla2036/crowdsourced"
               target="_blank"
               rel="noreferrer">
               {t('github')}

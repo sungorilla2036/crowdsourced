@@ -22,11 +22,11 @@ package answercommon
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/pkg/htmltext"
-	"github.com/apache/incubator-answer/pkg/uid"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/pkg/htmltext"
+	"github.com/sungorilla2036/crowdsourced/pkg/uid"
 )
 
 type AnswerRepo interface {

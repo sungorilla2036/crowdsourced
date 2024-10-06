@@ -25,19 +25,19 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/apache/incubator-answer/configs"
-	"github.com/apache/incubator-answer/internal/base/conf"
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/cli"
-	"github.com/apache/incubator-answer/internal/migrations"
-	"github.com/apache/incubator-answer/internal/schema"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/copier"
 	"github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/configs"
+	"github.com/sungorilla2036/crowdsourced/internal/base/conf"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/cli"
+	"github.com/sungorilla2036/crowdsourced/internal/migrations"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 )
 
 // LangOptions get installation language options

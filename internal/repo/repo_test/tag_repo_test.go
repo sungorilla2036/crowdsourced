@@ -26,12 +26,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/repo/tag"
-	"github.com/apache/incubator-answer/internal/repo/tag_common"
-	"github.com/apache/incubator-answer/internal/repo/unique"
-	"github.com/apache/incubator-answer/pkg/converter"
 	"github.com/stretchr/testify/assert"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/tag"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/tag_common"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/unique"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
 )
 
 var (

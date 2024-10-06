@@ -27,11 +27,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/incubator-answer/internal/service/service_config"
-	"github.com/apache/incubator-answer/internal/service/uploader"
-	"github.com/apache/incubator-answer/pkg/converter"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/service/service_config"
+	"github.com/sungorilla2036/crowdsourced/internal/service/uploader"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
 )
 
 type AvatarMiddleware struct {

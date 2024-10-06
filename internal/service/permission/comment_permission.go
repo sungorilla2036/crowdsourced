@@ -23,10 +23,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 )
 
 // GetCommentPermission get comment permission

@@ -21,14 +21,14 @@ package export
 
 import (
 	"context"
-	"github.com/apache/incubator-answer/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
 	"github.com/tidwall/gjson"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/service/export"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/service/export"
 )
 
 // emailRepo email repository

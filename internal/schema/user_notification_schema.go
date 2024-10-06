@@ -21,8 +21,8 @@ package schema
 
 import (
 	"encoding/json"
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
 )
 
 type NotificationChannelConfig struct {

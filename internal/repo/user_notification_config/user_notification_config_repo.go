@@ -21,12 +21,12 @@ package user_notification_config
 
 import (
 	"context"
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/service/user_notification_config"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/service/user_notification_config"
 )
 
 // userNotificationConfigRepo notification repository

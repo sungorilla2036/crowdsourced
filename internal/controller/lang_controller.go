@@ -22,11 +22,11 @@ package controller
 import (
 	"encoding/json"
 
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/service/siteinfo_common"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/i18n"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/service/siteinfo_common"
 )
 
 type LangController struct {

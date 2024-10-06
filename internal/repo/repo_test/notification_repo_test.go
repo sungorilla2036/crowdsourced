@@ -23,10 +23,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/repo/notification"
-	"github.com/apache/incubator-answer/internal/schema"
 	"github.com/stretchr/testify/assert"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/notification"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 )
 
 func buildNotificationEntity() *entity.Notification {

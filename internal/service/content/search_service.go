@@ -22,10 +22,10 @@ package content
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/search_common"
-	"github.com/apache/incubator-answer/internal/service/search_parser"
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/search_common"
+	"github.com/sungorilla2036/crowdsourced/internal/service/search_parser"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 )
 
 type SearchService struct {

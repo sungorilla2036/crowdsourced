@@ -22,8 +22,8 @@ package activity_queue
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/schema"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 )
 
 type ActivityQueueService interface {

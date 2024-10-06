@@ -23,11 +23,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/incubator-answer/internal/repo/config"
-	serviceconfig "github.com/apache/incubator-answer/internal/service/config"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/config"
+	serviceconfig "github.com/sungorilla2036/crowdsourced/internal/service/config"
 
-	"github.com/apache/incubator-answer/internal/repo/reason"
 	"github.com/stretchr/testify/assert"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/reason"
 )
 
 func Test_reasonRepo_ListReasons(t *testing.T) {

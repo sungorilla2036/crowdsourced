@@ -26,11 +26,11 @@ import (
 	"time"
 	"xorm.io/builder"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/permission"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/permission"
 	"xorm.io/xorm"
 )
 

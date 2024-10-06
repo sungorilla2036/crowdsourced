@@ -23,14 +23,14 @@ import (
 	"context"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/pager"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
-	notficationcommon "github.com/apache/incubator-answer/internal/service/notification_common"
-	"github.com/apache/incubator-answer/pkg/uid"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/pager"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	notficationcommon "github.com/sungorilla2036/crowdsourced/internal/service/notification_common"
+	"github.com/sungorilla2036/crowdsourced/pkg/uid"
 )
 
 // notificationRepo notification repository

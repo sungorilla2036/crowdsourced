@@ -24,14 +24,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/server"
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/cli"
-	"github.com/apache/incubator-answer/internal/router"
-	"github.com/apache/incubator-answer/internal/service/service_config"
-	"github.com/apache/incubator-answer/pkg/writer"
 	"github.com/segmentfault/pacman/contrib/conf/viper"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/server"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/cli"
+	"github.com/sungorilla2036/crowdsourced/internal/router"
+	"github.com/sungorilla2036/crowdsourced/internal/service/service_config"
+	"github.com/sungorilla2036/crowdsourced/pkg/writer"
 	"gopkg.in/yaml.v3"
 )
 

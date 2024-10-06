@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-module github.com/apache/incubator-answer
+module github.com/sungorilla2036/crowdsourced
 
 go 1.18
 

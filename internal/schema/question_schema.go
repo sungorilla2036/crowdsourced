@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/validator"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/pkg/converter"
-	"github.com/apache/incubator-answer/pkg/uid"
+	"github.com/sungorilla2036/crowdsourced/internal/base/validator"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
+	"github.com/sungorilla2036/crowdsourced/pkg/uid"
 )
 
 const (

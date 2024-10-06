@@ -22,10 +22,10 @@ package follow
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/activity_common"
-	tagcommon "github.com/apache/incubator-answer/internal/service/tag_common"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/activity_common"
+	tagcommon "github.com/sungorilla2036/crowdsourced/internal/service/tag_common"
 )
 
 type FollowRepo interface {

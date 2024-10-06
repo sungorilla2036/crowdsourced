@@ -85,7 +85,7 @@ const Users: FC = () => {
           Plugins extend and expand the functionality. You may find plugins in
           the
           <a
-            href="https://github.com/apache/incubator-answer-plugins"
+            href="https://github.com/sungorilla2036/crowdsourced-plugins"
             target="_blank"
             rel="noreferrer">
             Plugin Repository

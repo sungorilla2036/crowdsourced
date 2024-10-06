@@ -25,9 +25,9 @@ import (
 
 	"github.com/segmentfault/pacman/i18n"
 
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/internal/base/translator"
 	"github.com/gin-gonic/gin"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
 )
 
 // GinContext is a wrapper of gin.Context

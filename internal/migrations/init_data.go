@@ -20,8 +20,8 @@
 package migrations
 
 import (
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/service/permission"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/service/permission"
 )
 
 const (

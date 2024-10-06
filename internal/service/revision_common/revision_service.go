@@ -22,16 +22,16 @@ package revision_common
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/service/revision"
-	usercommon "github.com/apache/incubator-answer/internal/service/user_common"
-	"github.com/apache/incubator-answer/pkg/uid"
 	"github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/service/revision"
+	usercommon "github.com/sungorilla2036/crowdsourced/internal/service/user_common"
+	"github.com/sungorilla2036/crowdsourced/pkg/uid"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
 	"github.com/jinzhu/copier"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 )
 
 // RevisionService user service

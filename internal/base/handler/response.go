@@ -20,9 +20,9 @@
 package handler
 
 import (
-	"github.com/apache/incubator-answer/internal/base/translator"
 	"github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/i18n"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
 )
 
 // RespBody response body.

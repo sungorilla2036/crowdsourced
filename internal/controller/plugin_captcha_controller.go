@@ -22,9 +22,9 @@ package controller
 import (
 	"encoding/json"
 
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/plugin"
 	"github.com/gin-gonic/gin"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 )
 
 // CaptchaController comment controller

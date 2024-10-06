@@ -24,15 +24,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
-	usercommon "github.com/apache/incubator-answer/internal/service/user_common"
-	"github.com/apache/incubator-answer/pkg/converter"
-	"github.com/apache/incubator-answer/plugin"
 	"github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	usercommon "github.com/sungorilla2036/crowdsourced/internal/service/user_common"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 	"xorm.io/xorm"
 )
 

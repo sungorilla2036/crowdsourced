@@ -30,18 +30,18 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/service/service_config"
-	"github.com/apache/incubator-answer/internal/service/siteinfo_common"
-	"github.com/apache/incubator-answer/pkg/checker"
-	"github.com/apache/incubator-answer/pkg/dir"
-	"github.com/apache/incubator-answer/pkg/uid"
-	"github.com/apache/incubator-answer/plugin"
 	"github.com/disintegration/imaging"
 	"github.com/gin-gonic/gin"
 	exifremove "github.com/scottleedavis/go-exif-remove"
 	"github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/service/service_config"
+	"github.com/sungorilla2036/crowdsourced/internal/service/siteinfo_common"
+	"github.com/sungorilla2036/crowdsourced/pkg/checker"
+	"github.com/sungorilla2036/crowdsourced/pkg/dir"
+	"github.com/sungorilla2036/crowdsourced/pkg/uid"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 )
 
 const (

@@ -22,7 +22,7 @@ package templaterender
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 )
 
 func (t *TemplateRenderController) AnswerList(ctx context.Context, req *schema.AnswerListReq) ([]*schema.AnswerInfo, int64, error) {

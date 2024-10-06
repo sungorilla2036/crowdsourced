@@ -23,8 +23,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
 	"xorm.io/xorm"
 )
 

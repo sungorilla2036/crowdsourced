@@ -23,9 +23,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/repo/user"
 	"github.com/stretchr/testify/assert"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/user"
 )
 
 func Test_userRepo_AddUser(t *testing.T) {

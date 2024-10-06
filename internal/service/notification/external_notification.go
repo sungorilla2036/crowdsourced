@@ -22,17 +22,17 @@ package notification
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/activity_common"
-	"github.com/apache/incubator-answer/internal/service/export"
-	"github.com/apache/incubator-answer/internal/service/notice_queue"
-	"github.com/apache/incubator-answer/internal/service/siteinfo_common"
-	usercommon "github.com/apache/incubator-answer/internal/service/user_common"
-	"github.com/apache/incubator-answer/internal/service/user_external_login"
-	"github.com/apache/incubator-answer/internal/service/user_notification_config"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/activity_common"
+	"github.com/sungorilla2036/crowdsourced/internal/service/export"
+	"github.com/sungorilla2036/crowdsourced/internal/service/notice_queue"
+	"github.com/sungorilla2036/crowdsourced/internal/service/siteinfo_common"
+	usercommon "github.com/sungorilla2036/crowdsourced/internal/service/user_common"
+	"github.com/sungorilla2036/crowdsourced/internal/service/user_external_login"
+	"github.com/sungorilla2036/crowdsourced/internal/service/user_notification_config"
 )
 
 type ExternalNotificationService struct {

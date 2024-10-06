@@ -23,9 +23,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/base/validator"
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/validator"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 )
 
 type SearchDTO struct {

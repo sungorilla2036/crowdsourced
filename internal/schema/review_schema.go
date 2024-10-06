@@ -20,8 +20,8 @@
 package schema
 
 import (
-	"github.com/apache/incubator-answer/internal/base/validator"
-	"github.com/apache/incubator-answer/pkg/uid"
+	"github.com/sungorilla2036/crowdsourced/internal/base/validator"
+	"github.com/sungorilla2036/crowdsourced/pkg/uid"
 )
 
 // UpdateReviewReq update review request

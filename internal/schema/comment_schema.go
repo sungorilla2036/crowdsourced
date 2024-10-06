@@ -20,10 +20,10 @@
 package schema
 
 import (
-	"github.com/apache/incubator-answer/internal/base/validator"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/pkg/converter"
 	"github.com/jinzhu/copier"
+	"github.com/sungorilla2036/crowdsourced/internal/base/validator"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
 )
 
 // AddCommentReq add comment request

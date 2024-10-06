@@ -25,9 +25,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/apache/incubator-answer/configs"
-	"github.com/apache/incubator-answer/internal/cli"
-	"github.com/apache/incubator-answer/pkg/dir"
+	"github.com/sungorilla2036/crowdsourced/configs"
+	"github.com/sungorilla2036/crowdsourced/internal/cli"
+	"github.com/sungorilla2036/crowdsourced/pkg/dir"
 )
 
 var (

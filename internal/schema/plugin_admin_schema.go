@@ -20,8 +20,8 @@
 package schema
 
 import (
-	"github.com/apache/incubator-answer/plugin"
 	"github.com/gin-gonic/gin"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 )
 
 const (

@@ -21,10 +21,10 @@ package activity
 
 import (
 	"context"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/activity_type"
-	"github.com/apache/incubator-answer/internal/service/config"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/activity_type"
+	"github.com/sungorilla2036/crowdsourced/internal/service/config"
 )
 
 // AnswerActivityRepo answer activity

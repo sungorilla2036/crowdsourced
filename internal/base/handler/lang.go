@@ -22,9 +22,9 @@ package handler
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/i18n"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
 )
 
 // GetLang get language from header

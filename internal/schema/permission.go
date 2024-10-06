@@ -22,10 +22,10 @@ package schema
 import (
 	"strings"
 
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/base/validator"
 	"github.com/segmentfault/pacman/i18n"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/base/validator"
 )
 
 // PermissionTrTplData template data as for translate permission message

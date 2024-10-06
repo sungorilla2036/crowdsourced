@@ -25,11 +25,11 @@ import (
 	"io/fs"
 	"net/http"
 
-	"github.com/apache/incubator-answer/configs"
-	"github.com/apache/incubator-answer/internal/base/conf"
-	"github.com/apache/incubator-answer/ui"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/configs"
+	"github.com/sungorilla2036/crowdsourced/internal/base/conf"
+	"github.com/sungorilla2036/crowdsourced/ui"
 	"gopkg.in/yaml.v3"
 )
 

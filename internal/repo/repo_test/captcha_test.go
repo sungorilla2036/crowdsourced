@@ -23,8 +23,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/incubator-answer/internal/repo/captcha"
 	"github.com/stretchr/testify/assert"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/captcha"
 )
 
 var (

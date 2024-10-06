@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/repo/export"
 	"github.com/stretchr/testify/assert"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/export"
 )
 
 func Test_emailRepo_VerifyCode(t *testing.T) {

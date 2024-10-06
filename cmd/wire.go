@@ -25,22 +25,22 @@
 package answercmd
 
 import (
-	"github.com/apache/incubator-answer/internal/base/conf"
-	"github.com/apache/incubator-answer/internal/base/cron"
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/middleware"
-	"github.com/apache/incubator-answer/internal/base/server"
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/controller"
-	"github.com/apache/incubator-answer/internal/controller/template_render"
-	"github.com/apache/incubator-answer/internal/controller_admin"
-	"github.com/apache/incubator-answer/internal/repo"
-	"github.com/apache/incubator-answer/internal/router"
-	"github.com/apache/incubator-answer/internal/service"
-	"github.com/apache/incubator-answer/internal/service/service_config"
 	"github.com/google/wire"
 	"github.com/segmentfault/pacman"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/conf"
+	"github.com/sungorilla2036/crowdsourced/internal/base/cron"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/middleware"
+	"github.com/sungorilla2036/crowdsourced/internal/base/server"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/controller"
+	"github.com/sungorilla2036/crowdsourced/internal/controller/template_render"
+	"github.com/sungorilla2036/crowdsourced/internal/controller_admin"
+	"github.com/sungorilla2036/crowdsourced/internal/repo"
+	"github.com/sungorilla2036/crowdsourced/internal/router"
+	"github.com/sungorilla2036/crowdsourced/internal/service"
+	"github.com/sungorilla2036/crowdsourced/internal/service/service_config"
 )
 
 // initApplication init application.

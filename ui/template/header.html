@@ -19,21 +19,35 @@
 
 -->
 {{define "header"}}
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{.lang}}">
   <head>
     <meta charset="utf-8" />
     <title>{{.title}}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
     <meta name="theme-color" />
     <meta name="description" content="{{.description}}" data-rh="true" />
-    <meta name="generator" content="Answer {{.Version}} - https://github.com/apache/incubator-answer version {{.Revision}}">
-    {{if .keywords }}<meta name="keywords" content="{{.keywords}}" data-rh="true" />{{end}}
-    {{if .noindex }}<meta name="robots" content="noindex">{{end}}
+    <meta
+      name="generator"
+      content="Answer {{.Version}} - https://github.com/sungorilla2036/crowdsourced version {{.Revision}}"
+    />
+    {{if .keywords }}
+    <meta name="keywords" content="{{.keywords}}" data-rh="true" />
+    {{end}} {{if .noindex }}
+    <meta name="robots" content="noindex" />
+    {{end}}
 
     <link rel="canonical" href="{{.siteinfo.Canonical}}" />
     <link rel="manifest" href="{{$.baseURL}}/manifest.json" />
-    <link rel="search" type="application/opensearchdescription+xml" href="{{$.baseURL}}/opensearch.xml" title="{{.siteinfo.General.Name}}" />
+    <link
+      rel="search"
+      type="application/opensearchdescription+xml"
+      href="{{$.baseURL}}/opensearch.xml"
+      title="{{.siteinfo.General.Name}}"
+    />
     <link href="{{.cssPath}}" rel="stylesheet" />
     <link href="{{$.baseURL}}/custom.css" rel="stylesheet" />
     <link
@@ -57,8 +71,7 @@
     />
     {{range $path := .scriptPath}}
     <script defer="defer" src="{{$path}}"></script>
-    {{end}}
-    {{if $.siteinfo.JsonLD }}{{ .siteinfo.JsonLD | templateHTML}}{{end}}
+    {{end}} {{if $.siteinfo.JsonLD }}{{ .siteinfo.JsonLD | templateHTML}}{{end}}
 
     <meta property="og:type" content="website" />
     <meta property="og:title" name="twitter:title" content="{{.title}}" />
@@ -66,18 +79,18 @@
     <meta property="og:url" content="{{.siteinfo.Canonical}}" />
     <meta property="og:description" content="{{.description}}" />
     <meta
-            property="og:image"
-            itemProp="image primaryImageOfPage"
-            content="{{if $.siteinfo.Branding.Favicon }}{{$.siteinfo.Branding.Favicon}}{{else}}{{$.baseURL}}/favicon.ico{{end}}"
+      property="og:image"
+      itemprop="image primaryImageOfPage"
+      content="{{if $.siteinfo.Branding.Favicon }}{{$.siteinfo.Branding.Favicon}}{{else}}{{$.baseURL}}/favicon.ico{{end}}"
     />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:domain" content="{{.siteinfo.General.SiteUrl}}" />
     <meta name="twitter:description" content="{{.description}}" />
     <meta
-            name="twitter:image"
-            content="{{if $.siteinfo.Branding.Favicon }}{{$.siteinfo.Branding.Favicon}}{{else}}{{$.baseURL}}/favicon.ico{{end}}"
+      name="twitter:image"
+      content="{{if $.siteinfo.Branding.Favicon }}{{$.siteinfo.Branding.Favicon}}{{else}}{{$.baseURL}}/favicon.ico{{end}}"
     />
-    <meta name="go-template">
+    <meta name="go-template" />
     <!--customize_head-->
     {{if .HeadCode }} {{.HeadCode | templateHTML}} {{end}}
     <!--customize_head-->
@@ -88,7 +101,6 @@
     {{if .HeaderCode }} {{.HeaderCode | templateHTML}} {{end}}
     <!--customize_header-->
     <div id="root">
-
       <div id="spin-mask">
         <noscript>
           <style>
@@ -103,7 +115,9 @@
         </noscript>
         <style>
           @keyframes _doc-spin {
-            to { transform: rotate(360deg) }
+            to {
+              transform: rotate(360deg);
+            }
           }
           #spin-mask {
             position: fixed;
@@ -125,10 +139,10 @@
             display: inline-block;
             width: 2rem;
             height: 2rem;
-            vertical-align: -.125em;
-            border: .25rem solid currentColor;
+            vertical-align: -0.125em;
+            border: 0.25rem solid currentColor;
             border-right-color: transparent;
-            color: rgba(108, 117, 125, .75);
+            color: rgba(108, 117, 125, 0.75);
             border-radius: 50%;
             animation: 0.75s linear infinite _doc-spin;
           }
@@ -144,7 +158,10 @@
         <div id="protect-browser"></div>
       </div>
 
-      <nav id="header" class="sticky-top theme-colored navbar navbar-expand-lg navbar-dark">
+      <nav
+        id="header"
+        class="sticky-top theme-colored navbar navbar-expand-lg navbar-dark"
+      >
         <div class="d-flex align-items-center container">
           <button
             aria-controls="navBarContent"
@@ -159,26 +176,38 @@
             class="d-flex justify-content-between align-items-center nav-grow flex-nowrap"
           >
             {{if .siteinfo.Branding.Logo}}
-              <a class="lh-1 me-0 me-sm-5 p-0 navbar-brand" href="{{$.baseURL}}/">
-                <img class="logo me-0" src="{{.siteinfo.Branding.Logo}}" alt="{{.siteinfo.General.Name}}">
-              </a>
+            <a class="lh-1 me-0 me-sm-5 p-0 navbar-brand" href="{{$.baseURL}}/">
+              <img
+                class="logo me-0"
+                src="{{.siteinfo.Branding.Logo}}"
+                alt="{{.siteinfo.General.Name}}"
+              />
+            </a>
             {{else}}
-              <a class="lh-1 me-0 me-sm-3 navbar-brand" href="{{$.baseURL}}/">
-                {{.siteinfo.General.Name}}
-              </a>
+            <a class="lh-1 me-0 me-sm-3 navbar-brand" href="{{$.baseURL}}/">
+              {{.siteinfo.General.Name}}
+            </a>
             {{end}}
           </div>
           <div class="me-auto navbar-collapse collapse" id="navBarContent">
             <hr class="hr lg-none mb-2" style="margin-top: 12px" />
             <div class="ps-0 col-lg-8">
               <form action="/search" class="w-100 maxw-400">
-                <input placeholder="Search" name="q" type="search" class="placeholder-search form-control" value="">
+                <input
+                  placeholder="Search"
+                  name="q"
+                  type="search"
+                  class="placeholder-search form-control"
+                  value=""
+                />
               </form>
             </div>
             <!-- <div class="lg-none mt-3 pb-1 nav-item">
               <a class="text-capitalize text-nowrap btn btn-light" href="/questions/ask">{{translator $.language "ui.btns.add_question"}}</a>
             </div> -->
-            <div class="d-none d-lg-flex justify-content-start justify-content-sm-end col-lg-4">
+            <div
+              class="d-none d-lg-flex justify-content-start justify-content-sm-end col-lg-4"
+            >
               <!-- <a role="button" tabindex="0" href="/users/login" class="me-2 link-light btn btn-link">
                 {{translator $.language "ui.btns.login"}}
               </a>
@@ -190,10 +219,8 @@
         </div>
       </nav>
       <div class="position-relative page-wrap">
-        {{template "sidenav" . }}
-        {{end}}
+        {{template "sidenav" . }} {{end}}
       </div>
-
     </div>
   </body>
   <script>
@@ -203,36 +230,43 @@
     const defaultList = [
       {
         name: 'Edge',
-        version: '100'
+        version: '100',
       },
       {
         name: 'Firefox',
-        version: '100'
+        version: '100',
       },
       {
         name: 'Chrome',
-        version: '90'
+        version: '90',
       },
       {
         name: 'Safari',
-        version: '15'
+        version: '15',
       },
       {
         name: 'IE',
-      }
+      },
     ];
-    function getBrowserTypeAndVersion(){
+    function getBrowserTypeAndVersion() {
       var browser = {
         name: '',
-        version: ''
+        version: '',
       };
       var ua = navigator.userAgent.toLowerCase();
       var s;
-      ((ua.indexOf("compatible") > -1 && ua.indexOf("MSIE") > -1) || (ua.indexOf('Trident') > -1 && ua.indexOf("rv:11.0") > -1)) ? browser = { name: 'IE', version: '' } :
-        (s = ua.match(/edge\/([\d\.]+)/)) ? browser = { name: 'Edge', version: s[1] } :
-          (s = ua.match(/firefox\/([\d\.]+)/)) ? browser = { name: 'Firefox', version: s[1] } :
-            (s = ua.match(/chrome\/([\d\.]+)/)) ?  browser = { name: 'Chrome', version: s[1] } :
-              (s = ua.match(/version\/([\d\.]+).*safari/)) ?  browser = { name: 'Safari', version: s[1] } : browser = { name: 'unknown', version: '' };
+      (ua.indexOf('compatible') > -1 && ua.indexOf('MSIE') > -1) ||
+      (ua.indexOf('Trident') > -1 && ua.indexOf('rv:11.0') > -1)
+        ? (browser = { name: 'IE', version: '' })
+        : (s = ua.match(/edge\/([\d\.]+)/))
+          ? (browser = { name: 'Edge', version: s[1] })
+          : (s = ua.match(/firefox\/([\d\.]+)/))
+            ? (browser = { name: 'Firefox', version: s[1] })
+            : (s = ua.match(/chrome\/([\d\.]+)/))
+              ? (browser = { name: 'Chrome', version: s[1] })
+              : (s = ua.match(/version\/([\d\.]+).*safari/))
+                ? (browser = { name: 'Safari', version: s[1] })
+                : (browser = { name: 'unknown', version: '' });
       // 根据关系进行判断
       return browser;
     }
@@ -263,9 +297,10 @@
 
     if (browserInfo.name === 'IE') {
       const div = document.getElementById('protect-browser');
-      div.innerText = 'Sorry, this site does not support Internet Explorer. In order to avoid affecting the normal use of our features, please use a more modern browser such as Edge, Firefox, Chrome, or Safari.'
+      div.innerText =
+        'Sorry, this site does not support Internet Explorer. In order to avoid affecting the normal use of our features, please use a more modern browser such as Edge, Firefox, Chrome, or Safari.';
     } else {
-      const notSupport = defaultList.some(item => {
+      const notSupport = defaultList.some((item) => {
         if (item.name === browserInfo.name) {
           return compareVersion(browserInfo.version, item.version) === -1;
         }
@@ -273,10 +308,9 @@
       });
       if (notSupport) {
         const div = document.getElementById('protect-browser');
-        div.innerText = 'The current browser version is too low, in order not to affect the normal use of the function, please upgrade the browser to the latest version.'
+        div.innerText =
+          'The current browser version is too low, in order not to affect the normal use of the function, please upgrade the browser to the latest version.';
       }
     }
-
   </script>
-
 </html>

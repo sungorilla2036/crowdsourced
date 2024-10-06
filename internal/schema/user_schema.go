@@ -22,16 +22,16 @@ package schema
 import (
 	"encoding/json"
 
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/base/translator"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/base/validator"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/pkg/checker"
-	"github.com/apache/incubator-answer/pkg/converter"
 	"github.com/jinzhu/copier"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/validator"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/pkg/checker"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
 )
 
 // UserVerifyEmailReq user verify email request

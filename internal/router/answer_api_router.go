@@ -20,10 +20,10 @@
 package router
 
 import (
-	"github.com/apache/incubator-answer/internal/base/middleware"
-	"github.com/apache/incubator-answer/internal/controller"
-	"github.com/apache/incubator-answer/internal/controller_admin"
 	"github.com/gin-gonic/gin"
+	"github.com/sungorilla2036/crowdsourced/internal/base/middleware"
+	"github.com/sungorilla2036/crowdsourced/internal/controller"
+	"github.com/sungorilla2036/crowdsourced/internal/controller_admin"
 )
 
 type AnswerAPIRouter struct {

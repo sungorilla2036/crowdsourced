@@ -24,13 +24,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/apache/incubator-answer/internal/base/conf"
-	"github.com/apache/incubator-answer/internal/cli"
-	"github.com/apache/incubator-answer/internal/install"
-	"github.com/apache/incubator-answer/internal/migrations"
-	"github.com/apache/incubator-answer/plugin"
 	"github.com/segmentfault/pacman/log"
 	"github.com/spf13/cobra"
+	"github.com/sungorilla2036/crowdsourced/internal/base/conf"
+	"github.com/sungorilla2036/crowdsourced/internal/cli"
+	"github.com/sungorilla2036/crowdsourced/internal/install"
+	"github.com/sungorilla2036/crowdsourced/internal/migrations"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 )
 
 var (

@@ -20,16 +20,16 @@
 package controller
 
 import (
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/internal/base/middleware"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/permission"
-	"github.com/apache/incubator-answer/internal/service/rank"
-	"github.com/apache/incubator-answer/internal/service/tag"
-	"github.com/apache/incubator-answer/internal/service/tag_common"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
+	"github.com/sungorilla2036/crowdsourced/internal/base/middleware"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/permission"
+	"github.com/sungorilla2036/crowdsourced/internal/service/rank"
+	"github.com/sungorilla2036/crowdsourced/internal/service/tag"
+	"github.com/sungorilla2036/crowdsourced/internal/service/tag_common"
 )
 
 // TagController tag controller

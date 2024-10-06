@@ -22,8 +22,8 @@ package checker
 import (
 	"sync"
 
-	"github.com/apache/incubator-answer/configs"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/configs"
 	"gopkg.in/yaml.v3"
 )
 

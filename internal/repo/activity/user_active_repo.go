@@ -24,14 +24,14 @@ import (
 	"fmt"
 	"xorm.io/builder"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/service/activity"
-	"github.com/apache/incubator-answer/internal/service/activity_common"
-	"github.com/apache/incubator-answer/internal/service/config"
-	"github.com/apache/incubator-answer/internal/service/rank"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/service/activity"
+	"github.com/sungorilla2036/crowdsourced/internal/service/activity_common"
+	"github.com/sungorilla2036/crowdsourced/internal/service/config"
+	"github.com/sungorilla2036/crowdsourced/internal/service/rank"
 	"xorm.io/xorm"
 )
 

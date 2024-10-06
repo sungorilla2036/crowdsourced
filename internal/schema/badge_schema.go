@@ -19,7 +19,7 @@
 
 package schema
 
-import "github.com/apache/incubator-answer/internal/entity"
+import "github.com/sungorilla2036/crowdsourced/internal/entity"
 
 const (
 	BadgeStatusActive   BadgeStatus = "active"

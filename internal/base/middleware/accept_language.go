@@ -20,10 +20,10 @@
 package middleware
 
 import (
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/base/handler"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/i18n"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
 )
 
 var (

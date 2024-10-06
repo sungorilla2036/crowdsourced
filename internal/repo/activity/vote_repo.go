@@ -24,25 +24,25 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/service/content"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/service/content"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/service/notice_queue"
-	"github.com/apache/incubator-answer/pkg/converter"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/service/notice_queue"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
 
-	"github.com/apache/incubator-answer/internal/base/pager"
-	"github.com/apache/incubator-answer/internal/service/rank"
-	"github.com/apache/incubator-answer/pkg/obj"
+	"github.com/sungorilla2036/crowdsourced/internal/base/pager"
+	"github.com/sungorilla2036/crowdsourced/internal/service/rank"
+	"github.com/sungorilla2036/crowdsourced/pkg/obj"
 
 	"xorm.io/builder"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/activity_common"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/activity_common"
 	"xorm.io/xorm"
 )
 

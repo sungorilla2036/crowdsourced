@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/migrations"
 	"github.com/ory/dockertest/v3"
 	"github.com/ory/dockertest/v3/docker"
 	"github.com/segmentfault/pacman/cache"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/migrations"
 	"xorm.io/xorm"
 	"xorm.io/xorm/schemas"
 )

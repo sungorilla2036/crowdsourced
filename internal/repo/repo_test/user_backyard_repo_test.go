@@ -23,10 +23,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/repo/auth"
-	"github.com/apache/incubator-answer/internal/repo/user"
 	"github.com/stretchr/testify/assert"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/auth"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/user"
 )
 
 func Test_userAdminRepo_GetUserInfo(t *testing.T) {

@@ -24,11 +24,11 @@ import (
 	"io/fs"
 
 	brotli "github.com/anargu/gin-brotli"
-	"github.com/apache/incubator-answer/internal/base/middleware"
-	"github.com/apache/incubator-answer/internal/router"
-	"github.com/apache/incubator-answer/plugin"
-	"github.com/apache/incubator-answer/ui"
 	"github.com/gin-gonic/gin"
+	"github.com/sungorilla2036/crowdsourced/internal/base/middleware"
+	"github.com/sungorilla2036/crowdsourced/internal/router"
+	"github.com/sungorilla2036/crowdsourced/plugin"
+	"github.com/sungorilla2036/crowdsourced/ui"
 )
 
 // NewHTTPServer new http server.

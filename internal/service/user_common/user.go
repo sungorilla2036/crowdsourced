@@ -23,20 +23,20 @@ import (
 	"context"
 	"strings"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/pkg/converter"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
 
 	"github.com/Chain-Zhang/pinyin"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/internal/service/auth"
-	"github.com/apache/incubator-answer/internal/service/role"
-	"github.com/apache/incubator-answer/internal/service/siteinfo_common"
-	"github.com/apache/incubator-answer/pkg/checker"
-	"github.com/apache/incubator-answer/pkg/random"
 	"github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/internal/service/auth"
+	"github.com/sungorilla2036/crowdsourced/internal/service/role"
+	"github.com/sungorilla2036/crowdsourced/internal/service/siteinfo_common"
+	"github.com/sungorilla2036/crowdsourced/pkg/checker"
+	"github.com/sungorilla2036/crowdsourced/pkg/random"
 )
 
 type UserRepo interface {

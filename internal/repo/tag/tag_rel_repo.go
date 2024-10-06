@@ -21,14 +21,14 @@ package tag
 
 import (
 	"context"
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	tagcommon "github.com/apache/incubator-answer/internal/service/tag_common"
-	"github.com/apache/incubator-answer/internal/service/unique"
-	"github.com/apache/incubator-answer/pkg/uid"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/handler"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	tagcommon "github.com/sungorilla2036/crowdsourced/internal/service/tag_common"
+	"github.com/sungorilla2036/crowdsourced/internal/service/unique"
+	"github.com/sungorilla2036/crowdsourced/pkg/uid"
 )
 
 // tagRelRepo tag rel repository

@@ -22,11 +22,11 @@ package action
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/pkg/token"
-	"github.com/apache/incubator-answer/plugin"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/pkg/token"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 )
 
 // CaptchaRepo captcha repository

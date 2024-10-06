@@ -23,10 +23,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/apache/incubator-answer/internal/service/content"
-	"github.com/apache/incubator-answer/internal/service/siteinfo_common"
 	"github.com/robfig/cron/v3"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/service/content"
+	"github.com/sungorilla2036/crowdsourced/internal/service/siteinfo_common"
 )
 
 // ScheduledTaskManager scheduled task manager

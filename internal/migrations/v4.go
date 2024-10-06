@@ -23,9 +23,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/service/permission"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/service/permission"
 	"xorm.io/xorm"
 )
 

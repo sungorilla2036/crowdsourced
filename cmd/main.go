@@ -25,19 +25,19 @@ import (
 	"os"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/conf"
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/base/cron"
-	"github.com/apache/incubator-answer/internal/cli"
-	"github.com/apache/incubator-answer/internal/schema"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman"
 	"github.com/segmentfault/pacman/contrib/log/zap"
 	"github.com/segmentfault/pacman/contrib/server/http"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/conf"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/cron"
+	"github.com/sungorilla2036/crowdsourced/internal/cli"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 )
 
-// go build -ldflags "-X github.com/apache/incubator-answer/cmd.Version=x.y.z"
+// go build -ldflags "-X github.com/sungorilla2036/crowdsourced/cmd.Version=x.y.z"
 var (
 	// Name is the name of the project
 	Name = "answer"

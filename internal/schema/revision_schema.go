@@ -22,7 +22,7 @@ package schema
 import (
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
 )
 
 // AddRevisionDTO add revision request

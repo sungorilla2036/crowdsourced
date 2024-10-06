@@ -24,7 +24,7 @@ ARG GOPROXY
 
 ENV GOPATH /go
 ENV GOROOT /usr/local/go
-ENV PACKAGE github.com/apache/incubator-answer
+ENV PACKAGE github.com/sungorilla2036/crowdsourced
 ENV BUILD_DIR ${GOPATH}/src/${PACKAGE}
 ENV ANSWER_MODULE ${BUILD_DIR}
 
@@ -52,15 +52,15 @@ ENV TIMEZONE=${TIMEZONE:-"Asia/Shanghai"}
 
 RUN apk update \
     && apk --no-cache add \
-        bash \
-        ca-certificates \
-        curl \
-        dumb-init \
-        gettext \
-        openssh \
-        sqlite \
-        gnupg \
-        tzdata \
+    bash \
+    ca-certificates \
+    curl \
+    dumb-init \
+    gettext \
+    openssh \
+    sqlite \
+    gnupg \
+    tzdata \
     && ln -sf /usr/share/zoneinfo/${TIMEZONE} /etc/localtime \
     && echo "${TIMEZONE}" > /etc/timezone
 

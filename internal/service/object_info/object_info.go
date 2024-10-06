@@ -21,16 +21,16 @@ package object_info
 
 import (
 	"context"
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/schema"
-	answercommon "github.com/apache/incubator-answer/internal/service/answer_common"
-	"github.com/apache/incubator-answer/internal/service/comment_common"
-	questioncommon "github.com/apache/incubator-answer/internal/service/question_common"
-	tagcommon "github.com/apache/incubator-answer/internal/service/tag_common"
-	"github.com/apache/incubator-answer/pkg/checker"
-	"github.com/apache/incubator-answer/pkg/obj"
 	"github.com/segmentfault/pacman/errors"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	answercommon "github.com/sungorilla2036/crowdsourced/internal/service/answer_common"
+	"github.com/sungorilla2036/crowdsourced/internal/service/comment_common"
+	questioncommon "github.com/sungorilla2036/crowdsourced/internal/service/question_common"
+	tagcommon "github.com/sungorilla2036/crowdsourced/internal/service/tag_common"
+	"github.com/sungorilla2036/crowdsourced/pkg/checker"
+	"github.com/sungorilla2036/crowdsourced/pkg/obj"
 )
 
 // ObjService user service

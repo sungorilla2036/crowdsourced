@@ -20,9 +20,9 @@
 package templaterender
 
 import (
-	"github.com/apache/incubator-answer/internal/base/pager"
-	"github.com/apache/incubator-answer/internal/schema"
 	"github.com/jinzhu/copier"
+	"github.com/sungorilla2036/crowdsourced/internal/base/pager"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
 	"golang.org/x/net/context"
 )
 

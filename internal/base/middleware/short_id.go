@@ -20,10 +20,10 @@
 package middleware
 
 import (
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/service/siteinfo_common"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/service/siteinfo_common"
 )
 
 type ShortIDMiddleware struct {

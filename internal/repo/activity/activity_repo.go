@@ -22,14 +22,14 @@ package activity
 import (
 	"context"
 
-	"github.com/apache/incubator-answer/internal/base/data"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/service/activity"
-	"github.com/apache/incubator-answer/internal/service/activity_type"
-	"github.com/apache/incubator-answer/internal/service/config"
 	"github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/data"
+	"github.com/sungorilla2036/crowdsourced/internal/base/reason"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/service/activity"
+	"github.com/sungorilla2036/crowdsourced/internal/service/activity_type"
+	"github.com/sungorilla2036/crowdsourced/internal/service/config"
 )
 
 // activityRepo activity repository

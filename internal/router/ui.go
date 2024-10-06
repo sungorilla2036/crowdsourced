@@ -22,18 +22,18 @@ package router
 import (
 	"embed"
 	"fmt"
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 	"io/fs"
 	"net/http"
 	"os"
 	"strings"
 
-	"github.com/apache/incubator-answer/internal/controller"
-	"github.com/apache/incubator-answer/internal/service/siteinfo_common"
-	"github.com/apache/incubator-answer/pkg/htmltext"
-	"github.com/apache/incubator-answer/ui"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/controller"
+	"github.com/sungorilla2036/crowdsourced/internal/service/siteinfo_common"
+	"github.com/sungorilla2036/crowdsourced/pkg/htmltext"
+	"github.com/sungorilla2036/crowdsourced/ui"
 )
 
 const UIIndexFilePath = "build/index.html"

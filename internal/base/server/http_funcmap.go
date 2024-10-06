@@ -27,13 +27,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/controller"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/pkg/converter"
-	"github.com/apache/incubator-answer/pkg/day"
-	"github.com/apache/incubator-answer/pkg/htmltext"
 	"github.com/segmentfault/pacman/i18n"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/controller"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
+	"github.com/sungorilla2036/crowdsourced/pkg/day"
+	"github.com/sungorilla2036/crowdsourced/pkg/htmltext"
 )
 
 var funcMap = template.FuncMap{

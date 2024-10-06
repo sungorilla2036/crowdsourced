@@ -24,15 +24,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/schema"
-	"github.com/apache/incubator-answer/pkg/display"
-	"github.com/apache/incubator-answer/pkg/token"
-	"github.com/apache/incubator-answer/plugin"
 	"github.com/jinzhu/copier"
 	"github.com/segmentfault/pacman/i18n"
 	"github.com/segmentfault/pacman/log"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/schema"
+	"github.com/sungorilla2036/crowdsourced/pkg/display"
+	"github.com/sungorilla2036/crowdsourced/pkg/token"
+	"github.com/sungorilla2036/crowdsourced/plugin"
 )
 
 type NewQuestionSubscriber struct {

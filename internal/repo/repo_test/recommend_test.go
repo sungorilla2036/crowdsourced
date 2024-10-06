@@ -23,17 +23,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/incubator-answer/internal/entity"
-	"github.com/apache/incubator-answer/internal/repo/activity"
-	"github.com/apache/incubator-answer/internal/repo/activity_common"
-	"github.com/apache/incubator-answer/internal/repo/config"
-	"github.com/apache/incubator-answer/internal/repo/question"
-	"github.com/apache/incubator-answer/internal/repo/tag"
-	"github.com/apache/incubator-answer/internal/repo/tag_common"
-	"github.com/apache/incubator-answer/internal/repo/unique"
-	"github.com/apache/incubator-answer/internal/repo/user"
-	config2 "github.com/apache/incubator-answer/internal/service/config"
 	"github.com/stretchr/testify/assert"
+	"github.com/sungorilla2036/crowdsourced/internal/entity"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/activity"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/activity_common"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/config"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/question"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/tag"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/tag_common"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/unique"
+	"github.com/sungorilla2036/crowdsourced/internal/repo/user"
+	config2 "github.com/sungorilla2036/crowdsourced/internal/service/config"
 )
 
 func Test_questionRepo_GetRecommend(t *testing.T) {

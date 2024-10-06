@@ -21,9 +21,9 @@ package cli
 
 import (
 	"fmt"
-	"github.com/apache/incubator-answer/i18n"
-	"github.com/apache/incubator-answer/pkg/dir"
-	"github.com/apache/incubator-answer/pkg/writer"
+	"github.com/sungorilla2036/crowdsourced/i18n"
+	"github.com/sungorilla2036/crowdsourced/pkg/dir"
+	"github.com/sungorilla2036/crowdsourced/pkg/writer"
 	"gopkg.in/yaml.v3"
 	"os"
 	"path/filepath"

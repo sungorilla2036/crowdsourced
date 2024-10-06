@@ -22,8 +22,8 @@ package schema
 import (
 	"strings"
 
-	"github.com/apache/incubator-answer/internal/base/validator"
-	"github.com/apache/incubator-answer/pkg/converter"
+	"github.com/sungorilla2036/crowdsourced/internal/base/validator"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
 )
 
 // SearchTagLikeReq get tag list all request

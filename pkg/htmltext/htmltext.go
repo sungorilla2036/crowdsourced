@@ -31,8 +31,8 @@ import (
 	"github.com/Machiel/slugify"
 	strip "github.com/grokify/html-strip-tags-go"
 
-	"github.com/apache/incubator-answer/pkg/checker"
-	"github.com/apache/incubator-answer/pkg/converter"
+	"github.com/sungorilla2036/crowdsourced/pkg/checker"
+	"github.com/sungorilla2036/crowdsourced/pkg/converter"
 )
 
 // min() and max() can be removed starting from Go1.21

@@ -22,7 +22,7 @@
 package main
 
 import (
-	answercmd "github.com/apache/incubator-answer/cmd"
+	answercmd "github.com/sungorilla2036/crowdsourced/cmd"
 )
 
 // main godoc

@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/apache/incubator-answer/internal/base/translator"
-	"github.com/apache/incubator-answer/internal/cli"
+	"github.com/sungorilla2036/crowdsourced/internal/base/translator"
+	"github.com/sungorilla2036/crowdsourced/internal/cli"
 )
 
 var (

@@ -20,8 +20,8 @@
 package schema
 
 import (
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/apache/incubator-answer/pkg/uid"
+	"github.com/sungorilla2036/crowdsourced/internal/base/constant"
+	"github.com/sungorilla2036/crowdsourced/pkg/uid"
 )
 
 // EventMsg event message

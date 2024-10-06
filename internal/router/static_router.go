@@ -20,8 +20,8 @@
 package router
 
 import (
-	"github.com/apache/incubator-answer/internal/service/service_config"
 	"github.com/gin-gonic/gin"
+	"github.com/sungorilla2036/crowdsourced/internal/service/service_config"
 )
 
 // StaticRouter static api router
